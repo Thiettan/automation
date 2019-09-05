@@ -1,0 +1,504 @@
+<!--ver. 1.05 - 07/09/2019 : normal image hero banner, content updates -->
+<!-- Bug fixes: for current version-->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/template/bootstrap/bootstrap-grid-min.css">
+<link rel="stylesheet" href="/assets/css/pools/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link href="/assets/css/pools/omnihub/styles-temp-1.css" type="text/css" rel="stylesheet"> -->
+
+<!--Bootstrap *Change to min. version in production-->
+<link href="/assets/css/pools/automation/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="/assets/css/pools/automation/style.css" type="text/css" rel="stylesheet">
+<link href="/assets/css/pools/automation/style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="http://tantbui.com/apps/works-component/react-modal.css">
+
+<div class="grounds-container">
+    <!--     <div class="hero-section">
+        
+            <div class="container">
+                <div class="row no-gutters full-width">
+                    <div class="col-md-8">
+                        <div class="hero-banner-text-overlay">
+                            <h1 style="text-transform: uppercase;">Experience the Luxury of Total Control.</h1>
+                            <h2>With Hayward's full line of control and automation solutions, it's never been easier to
+                                bring your backyard to life. Easily manage and control nearlyevery feature of your pool,
+                                spa and yard-including heaters, sanitization, lighting and more-right from the palm of
+                                your hand.</h2>
+                            <h3><a id="banner1-signup-now" class="get-promo-code decorate">Sign up</a> now to receive
+                                the latest automation info, news and promotions</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        
+    </div> -->
+    <div class='container-fluid hero-section'>
+        <div class='container'>
+            <div class='row align-items-center h-100'>
+                <div class="col-md-6 mx-auto">
+                    <div class='text-box h-100 justify-content-center'>
+                        <h1 class='mb-3'>Experience the Luxury of Total Control.</h1>
+                        <h2 class='mb-4'>With Hayward's full line of control and automation solutions, it's never been
+                            easier to
+                            bring your backyard to life. Easily manage and control nearly every feature of your pool,
+                            spa and yard-including heaters, sanitization, lighting and more-right from the palm of
+                            your hand.</h2>
+                        <h3 class='mb-3'>Sign up now to
+                            receive
+                            the latest automation info, news and promotions.</h3>
+                        <form id='automation-email-form'>
+                            <div class="row ml-0">
+                                <div class="col-sm-10 pr-0 pl-1">
+                                    <label for='email-input' style='display:none;'>Email</label>
+                                    <input type="email" class="form-control" name="email-input" id="email-input"
+                                        aria-describedby="emailHelpId" placeholder="Enter Email" aria-required="true"
+                                        required>
+                                </div>
+                                <div class="col-sm-2 pl-0">
+                                    <button id='automation-submit-btn' class='btn' type='submit'><i
+                                            class="fa fa-angle-double-right cta-arrows"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </div>
+    <div id="in-page-navigation-placeholder" class="in-page-navigation-placeholder">
+        <div id="inPageNAV" class="in-page-navigation">
+            <div class="content-width">
+                <div class="container-fluid">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <div id="nav-smart-control" class="in-page-nav-link">Total Control</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div id="nav-whole-pool-upgrade" class="in-page-nav-link">Seamless Integration</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div id="nav-simple-install" class="in-page-nav-link">Products</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div id="nav-get-promo-code" class="in-page-nav-link"><a class="blue-button"
+                                    title="Get Promo">Find a Dealer <i
+                                        class="fa fa-angle-double-right cta-arrows"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='total-control-section' class='container-fluid'>
+        <div class='content-width'>
+            <div class='banner-text text-center'>
+                <h1>Your Backyard At Your Command</h1>
+                <h2>Create the ultimate backyard experience with Hayward's innovative systems.</h2>
+                <h2>Enjoy total control of-and remote access to-your pool equipment and features, including:</h2>
+            </div>
+            <div class="row mw12">
+                <div class="feature-list-item">
+                    <div class="feature-container">
+                        <img src="/assets/images/pools/content/automation/pumps.png">
+                        <h4>pumps</h4>
+                        <p>Control speed</p>
+                    </div>
+                </div>
+                <div class="feature-list-item">
+                    <div class="feature-container">
+                        <img src="/assets/images/pools/content/automation/temp.png">
+                        <h4>heaters</h4>
+                        <p>adjust temperature</p>
+                    </div>
+                </div>
+                <div class="feature-list-item">
+                    <div class="feature-container">
+                        <img src="/assets/images/pools/content/automation/lights.png">
+                        <h4>lights</h4>
+                        <p>change colors &amp; set themes</p>
+                    </div>
+                </div>
+                <div class="feature-list-item">
+                    <div class="feature-container">
+                        <img src="/assets/images/pools/content/automation/tube.png">
+                        <h4>salt system</h4>
+                        <p>monitor salt &amp; set chlorination</p>
+                    </div>
+                </div>
+                <div class="feature-list-item">
+                    <div class="feature-container">
+                        <img src="/assets/images/pools/content/automation/cleaners.png">
+                        <h4>cleaners</h4>
+                        <p>schedule cleanings</p>
+                    </div>
+                </div>
+                <div class="feature-list-item">
+                    <div class="feature-container">
+                        <img src="/assets/images/pools/content/automation/sprinkler.png">
+                        <h4>water features</h4>
+                        <p>control lighting &amp; themes</p>
+                    </div>
+                </div>
+                <div class="feature-list-item">
+                    <div class="feature-container">
+                        <img src="/assets/images/pools/content/automation/people.png">
+                        <h4>spa settings</h4>
+                        <p>switch to spa mode</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SLIDESHOW1----------------------------------->
+    <div id="slideshow1" class='slideshow'>
+        <div class="cycle-slideshow composite-example" data-cycle-swipe=true data-cycle-fx="scrollHorz"
+            data-cycle-slides="> div" data-cycle-pause-on-hover="true" data-cycle-prev=".slideshow-prev"
+            data-cycle-next=".slideshow-next" data-cycle-pager=".cycle-pager">
+            <!--  <div class="slide-1">
+                <div class="content-width">
+                    <div class="container-fluid">
+                        <div class="row no-gutters">
+                            <div class="col-md-12">
+                                <div class="textbox mega-banner-text-overlay slide-1-text">
+                                    <h2>Your Backyard At Your Command.</h2>
+                                    <h3>Create the ultimate backyard experience with Hayward's innovative systems.</h3>
+                                    <h3>Enjoy total control of-and remote access to-your pool equipment and features,
+                                        including:</h3>
+                                    <div class="learn-more-promo">
+                                        <h3><span>Learn more</span> about Amazon Echo Dot promotion.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="mega-banner-image fix" alt="OmniHub Add Your Pool to Your Network"
+                    src="/assets/images/pools/content/omnihub/Hayward_Features-Overview-030419.png">
+            </div> -->
+            <div class="slide-2">
+                <div class="content-width">
+                    <div class="container-fluid">
+                        <div class="row no-gutters">
+                            <div class="col-md-12">
+                                <div class="mega-banner-text-overlay slide-2-text">
+                                    <h2>CHOOSE YOUR FAVORITE SETTING FROM ANY SETTING </h2>
+                                    <h3>No matter if you're at home or on the go, you can access and manage your pool,
+                                        spa and yard right from your phone.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="mega-banner-image fix" alt="OmniHub Add Your Pool to Your Network"
+                    src="/assets/images/pools/content/omnihub/Hayward_Features-Total_Control-030419.png">
+            </div>
+            <!--             <div class="slide-3">
+                <div class="content-width">
+                    <div class="container-fluid">
+                        <div class="row no-gutters">
+                            <div class="col-md-12">
+                                <div class="mega-banner-text-overlay slide-3-text">
+                                    <h2>ACCESS FROM ANYWHERE.</h2>
+                                    <h3>From turning on the pool lights with the mobile app to adjusting the pool heater
+                                        with Alexa, you’re always in control.</h3>
+                                    <div class="learn-more-promo">
+                                        <h3><span>Learn more</span> about Amazon Echo Dot promotion.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="mega-banner-image fix" alt="OmniHub Add Your Pool to Your Network"
+                    src="/assets/images/pools/content/omnihub/Hayward_Features-Access_Anywhere-030419.png">
+            </div> -->
+        </div>
+        <!-- empty element for pager links -->
+        <div class="center cycle-pager"></div>
+        <!-- prev/next links -->
+        <div class="center">
+            <span class="slideshow-prev"><i class="fa fa-angle-left"></i></span>
+            <span class="slideshow-next"><i class="fa fa-angle-right"></i></span>
+        </div>
+    </div>
+    <!--SECTION 4 | Designed To Fit Right In-->
+    <div id="section4" class='container-fluid'>
+        <div class='content-width darker'>
+            <div class='banner-text text-center'>
+                <h1 class='darker'>Designed to Fit Right In.</h1>
+            </div>
+            <div class='row'>
+                <div class="col-md-4">
+                    <div class='feature-list-item3'>
+                        <div class='feature-container'><img src="/assets/images/pools/content/automation/wrench.png">
+                            <h3 class='darker text-uppercase sp-w-1'>Easy to Install, Simple to Use</h3>
+                            <p>Automation is quick and simple for pool pros to install and intuitive and convenient for
+                                you to manage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class='feature-list-item3'>
+                        <div class='feature-container'><img
+                                src="/assets/images/pools/content/automation/twisting-arrows.png">
+                            <h3 class='darker text-uppercase sp-w-1'>Compatible with Existing Equipment</h3>
+                            <p>Get total control without replacing any of your equipment-your systems work with most
+                                major pool and spa brands.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class='feature-list-item3'>
+                        <div class='feature-container'><img src="/assets/images/pools/content/automation/pencil.png">
+                            <h3 class='darker text-uppercase sp-w-1'>Future-proof Design</h3>
+                            <p>Easily connect additional equipment or backyard lighting to automation whenever you
+                                devide to upgrade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SECTION 5 | Product as Unique as Your Lifestyle.-->
+    <div id='section5' class='container-fluid'>
+        <div class="container">
+            <div class="banner-text text-center">
+                <h1>Product as Unique as Your Lifestyle.</h1>
+                <h3 class='light'>Find the perfect automation solution for your pool.</h3>
+            </div>
+            <div class='tab container'>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tab-link-1" data-toggle="tab" href="#tab-content-1" role="tab"
+                            aria-controls="existing pools" aria-selected="true">Existing Pools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab-link-2" data-toggle="tab" href="#tab-content-2" role="tab"
+                            aria-controls="builds" aria-selected="false">New Builds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab-link-3" data-toggle="tab" href="#tab-content-3" role="tab"
+                            aria-controls="accessories" aria-selected="false">Accessories</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <!--Tab content pane 1-->
+                    <div class="tab-pane fade show active" id="tab-content-1" role="tabpanel"
+                        aria-labelledby="tab-link-1">
+                        <div class='row'>
+                            <div class='col-md-6 text-right'><img
+                                    src='/assets/images/pools/products/medium/OmniHub_Comp.jpg'>
+                            </div>
+                            <div class='col-md-6'>
+                                <div class='content'>
+                                    <a href='/shop/en/pools/res-automation/omnihub'>
+                                        <h3 class='caps'>OmniHub<sup>&trade;</sup></h3>
+                                    </a>
+                                    <ul>
+                                        <li>The easiest way to add control to existing pools & spas</li>
+                                        <li>Delivers total control via an intuitive app or Alexa voice control</li>
+                                        <li>Installs in just a few hours</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-6 text-right'><img
+                                    src='/assets/images/pools/products/medium/HLAQR940.jpg'>
+                            </div>
+                            <div class='col-md-6'>
+                                <div class='content'>
+                                    <a href='/shop/en/pools/aquarite-940-omni-hlaqr940'>
+                                        <h3 class='caps'>AquaRite<sup>&trade;</sup> 940 Omni Salt System</h3>
+                                    </a>
+                                    <ul>
+                                        <li>Part of the world's #1 salt chlorinator family</li>
+                                        <li>Delivers soft, silky water that eliminates red eyes, itchy skin and harsh
+                                            odors</li>
+                                        <li>Includes an OmniHub Smart Pool & Spa Control system</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-6 text-right'><img
+                                    src='/assets/images/pools/content/automation/vs-omni-pump.jpg'>
+                            </div>
+                            <div class='col-md-6'>
+                                <div class='content'>
+                                    <a
+                                        href='/shop/en/pools//vs-omni-variable-speed-pumps-with-smart-pool-control-i-vsomni'>
+                                        <h3 class='caps'>VS Omni<sup>&trade;</sup> Variable-Speed Pumps</h3>
+                                    </a>
+                                    <ul>
+                                        <li>Industry-leading energy efficiency</li>
+                                        <li>Remarkably quiet operations for a more relaxing backyard</li>
+                                        <li>Includes an Omnihub Smart Pool & Spa Control System</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tab content pane 2-->
+                    <div class="tab-pane fade" id="tab-content-2" role="tabpanel" aria-labelledby="tab-link-2">
+                        <div class='row'>
+                            <div class='col-md-6 text-right'><img
+                                    src='/assets/images/pools/products/medium/OmniLogic.jpg'>
+                            </div>
+                            <div class='col-md-6'>
+                                <div class='content'>
+                                    <a href='/shop/en/pools/res-in-ground/res-automation/omnilogic-i-auomni--1'>
+                                        <h3 class='caps'>OmniLogic<sup>&reg;</sup></h3>
+                                    </a>
+                                    <ul>
+                                        <li>State-of-the-art capabilities for pools, spa, and landscape features</li>
+                                        <li>Simple customization of themes and favorite settings</li>
+                                        <li>Control via app, Alexa voice control and popular home automation systems
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-6 text-right'><img
+                                    src='/assets/images/pools/products/medium/ProLogic_P4.jpg'>
+                            </div>
+                            <div class='col-md-6'>
+                                <div class='content'>
+                                    <a href='/shop/en/pools/res-in-ground/res-automation/prologic-i-prolog'>
+                                        <h3 class='caps'>ProLogic<sup>&reg;</sup></h3>
+                                    </a>
+                                    <ul>
+                                        <li>Budget-friendly</li>
+                                        <li>Manages most pool & spa features</li>
+                                        <li>Convenient control with Hayward AquaConnect<sup>&reg;</sup></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tab content pane 3-->
+                    <div class="tab-pane fade" id="tab-content-3" role="tabpanel" aria-labelledby="tab-link-3">
+                        <div class='row'>
+                            <div class='col-md-6 text-right'><img
+                                    src='/assets/images/pools/products/medium/OmniLogic.jpg'>
+                            </div>
+                            <div class='col-md-6'>
+                                <div class='content'>
+                                    <a href='/shop/en/pools/res-in-ground/res-automation/omnilogic-i-auomni--1'>
+                                        <h3 class='caps'>ColorLogic LED Lighting<sup>&reg;</sup></h3>
+                                    </a>
+                                    <ul>
+                                        <li>Illuminate your backyard environment with vibrant color</li>
+                                        <li>The industry's brightest and most versatile color LED lights</li>
+                                        <li>Available in multiple sizes for any pool, spa or yard application
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class='row'>
+                            <div class='col-md-6 text-right'><img
+                                    src='/assets/images/pools/products/medium/OmniLogic.jpg'>
+                            </div>
+                            <div class='col-md-6'>
+                                <div class='content'>
+                                    <a href='/shop/en/pools/res-in-ground/res-automation/omnilogic-i-auomni--1'>
+                                        <h3 class='caps'>Omni<sup>&reg;</sup> Remotes</h3>
+                                    </a>
+                                    <ul>
+                                        <li>Work with Hayward Omni automation systems</li>
+                                        <li>Remotes provide control inside, outside, spaside or even from the water</li>
+                                        <li>Wireless, waterproof, wall-mount, and spaside options that can be used
+                                            without internet access</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class='row'>
+                            <div class='col-md-6 text-right'><img
+                                    src='/assets/images/pools/products/medium/OmniLogic.jpg'>
+                            </div>
+                            <div class='col-md-6'>
+                                <div class='content'>
+                                    <a href='/shop/en/pools/res-in-ground/res-automation/omnilogic-i-auomni--1'>
+                                        <h3 class='caps'>Sense and Dispense<sup>&reg;</sup></h3>
+                                    </a>
+                                    <ul>
+                                        <li>Professional-grade chemistry automation system</li>
+                                        <li>Self adjusts, automatically tests chemicals levels and balances and
+                                            sanitizes pool water</li>
+                                        <li>Connects to Hayward automation so you can easily monitor water quality
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--Bottom Form Rows-->
+            <div class='row mt-4'>
+                <div class='col-sm-6'>
+                    <h2 class='light caps'>Need More Info?</h2>
+                    <p class='light'>Sign up to receive the latest automation info, news and promotions</p>
+                    <form id='automation-email-form-1'>
+                        <div class="row ml-0">
+                            <div class="col-sm-10 pr-0">
+                                <label for='email-input-1' style='display:none;'>Email</label>
+                                <input type="email" class="form-control" name="email-input-1" id="email-input-1"
+                                    aria-describedby="emailHelpId" placeholder="Enter Email" aria-required="true"
+                                    required>
+                            </div>
+                            <div class="col-sm-2 pl-0">
+                                <button id='automation-submit-btn-1' class='btn' type='submit'><i
+                                        class="fa fa-angle-double-right cta-arrows"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class='col-sm-6'>
+                    <h2 class='light caps'>Ready to Get Automation?</h2>
+                    <p class='light'>Enter your ZIP code to find your nearest Hayward dealer.</p>
+                    <form id="DealerLocatorForm-1" action="HaywardStaticContent">
+                        <input type="hidden" name="pageName" value="DealerLocatorList">
+                        <input type="hidden" name="storeId" value="10201">
+                        <input type="hidden" name="catalogId" value="10057">
+                        <div class="row ml-0">
+                            <div class="col-sm-10 pr-0">
+                                <label for='iframe_zip-1' style='display: none;'>Zip Code</label>
+                                <input type="text" class='form-control' name="iframe_zip" id='iframe_zip-1'
+                                    placeholder="Enter Zip Code">
+
+                            </div>
+                            <div class="col-sm-2 pl-0">
+                                <button class='btn' id='automation-submit-btn-2' type='submit' class="dealer-submit"><i
+                                        class="fa fa-angle-double-right cta-arrows"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/assets/js/pools/jquery.cycle2.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pools/jquery.cycle2.swipe.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pools/omnihub/script-1.js"></script>
+    <script type="text/javascript" src="/assets/js/pools/automation/bootstrap.js"></script>
+    <!-- <script type="text/javascript" src="/assets/js/pools/automation/tab.js"></script> -->
+    <script src="/assets/js/pools/automation/Forms-class.js"></script>
+    <script src="/assets/js/pools/automation/tabs.js"></script>
+    <script>
+        const Email_Form = document.getElementById('automation-email-form')
+        const feedbackOptions = {
+            showValidFeedback: true,
+            feedbackTop: false
+        }
+        const EmailForm = new Form(Email_Form, false, 'US', false, feedbackOptions);
+        EmailForm.initialize();
+    </script>
